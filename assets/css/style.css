@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------header*/
+
+.bg-color-header {
+  background-color: #303e59;
+}
+
+/*--------------------header*/
+
+h2 {
+  font-family: "Ubunto", sans-serif;
+  font-weight: 100;
+  margin: 10px 0 0 20px;
+  letter-spacing: 5px;
+  color: #fafafa;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  height: 60px;
+  font-family: "Ubunto", sans-serif;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+.nav-item a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fafafa;
+}
+
+.nav {
+  margin: 10px 20px 0px 0;
+}
+
+.nav-item a:hover {
+  background-color: #fafafa;
+  color: #303e59;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 40px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
