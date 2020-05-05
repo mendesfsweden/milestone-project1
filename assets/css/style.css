@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  padding:0;
+  padding: 0;
   font-family: "Ubunto", sans-serif;
   font-size: 20px;
 }
@@ -11,45 +11,32 @@ body {
 
 .navbar {
   background-color: #303e59;
-  border-bottom: 1px solid #fafafa;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-
 }
 
-.navbar a {
+.navbar .navbar-brand {
   color: #fafafa;
 }
 
 .navbar .navbar-brand {
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
+  font-weight: 300;
 }
 
-
-.navbar-nav .nav-item .nav-link  {
+.navbar-nav .nav-item .nav-link {
   letter-spacing: 3px;
   margin-right: 5px;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fafafa;
 }
 
-.navbar-toggler {
-  border: 1px solid #fafafa;
+.navbar-dark .navbar-toggler {
+    border: 0;
+}
+/*---------hovers*/
 
+.navbar-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.navbar-toggler-icon {
-  width: 1em;
-  height: .5em;
-  background-color: white;
-}
-
-.navbar-nav a:hover{
-    background-color: rgba(0, 0, 0, .2)
-
-    
-    
-}
