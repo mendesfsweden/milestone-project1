@@ -32,11 +32,78 @@ body {
 }
 
 .navbar-dark .navbar-toggler {
-    border: 0;
+  border: 0;
 }
+
+/*---------home*/
+
+.container-home {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+#home-bg-image {
+  width: 100vw;
+  height: 600px;
+  background: url("../images/bg-image.jpg") no-repeat center center;
+  background-size: cover;
+
+  animation-name: bg-image-zoom-in;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+#text-box {
+  width: 250px;
+  height: 150px;
+  background-color: rgba(48, 62, 89, 0.7);
+  bottom: 30%;
+  left: 5%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#text-box h2 {
+  color: #fafafa;
+  font-weight: 500;
+  font-size: 90%;
+  margin-top: 10px;
+}
+
+#text-divider {
+    background-color: #fafafa;
+    height: 3px;
+    width: 50px;
+    border:0;
+}
+
 /*---------hovers*/
 
 .navbar-nav a:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+/*---------sections*/
+
+.container-section {
+  min-height: 600px;
+  background-color: #303e59;
+}
+
+.container-section-white {
+  min-height: 600px;
+  background-color: #fafafa;
+}
+
+@keyframes bg-image-zoom-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
