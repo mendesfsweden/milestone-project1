@@ -7,6 +7,25 @@ body {
   font-size: 20px;
 }
 
+/*---------headings*/
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    border: 6px solid #303e59;
+    width: 200px;
+    text-align: center;
+    font-weight: 300;
+    margin: 40px 0 40px 0;
+}
+
+/*---------buttons*/
+
+.btn {
+    color: #303e59;
+}
+
+
 /*---------navbar*/
 
 .navbar {
@@ -67,7 +86,7 @@ body {
 }
 
 
-#text-box h2 {
+#text-box h3 {
   color: #fafafa;
   font-weight: 500;
   font-size: 90%;
@@ -87,17 +106,8 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*---------sections*/
 
-.container-section {
-  min-height: 600px;
-  background-color: #303e59;
-}
 
-.container-section-white {
-  min-height: 600px;
-  background-color: #fafafa;
-}
 
 @keyframes bg-image-zoom-in {
   from {
