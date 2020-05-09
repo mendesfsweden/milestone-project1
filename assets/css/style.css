@@ -8,18 +8,23 @@ body {
 }
 
 /*---------headings*/
-
 h2 {
-    font-size: 40px;
-    line-height: 40px;
-    border: 6px solid #303e59;
-    width: 200px;
     text-align: center;
+    font-size: 40px;
     font-weight: 300;
-    margin: 40px 0 40px 0;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
+
+
+    
+
+
+
 /*---------buttons*/
+
+
 
 .btn {
     color: #303e59;
@@ -62,7 +67,7 @@ h2 {
   position: relative;
 }
 
-#home-bg-image {
+.home-bg-image {
   width: 100vw;
   height: 600px;
   background: url("../images/bg-image.jpg") no-repeat center center;
@@ -73,33 +78,13 @@ h2 {
   animation-fill-mode: forwards;
 }
 
-#text-box {
-  width: 250px;
-  height: 150px;
-  background-color: rgba(48, 62, 89, 0.7);
-  bottom: 30%;
-  left: 5%;
-  position: absolute;
-  box-sizing: border-box;
-  padding: 20px;
-  text-align: center;
-}
+/*---------containers*/
 
 
-#text-box h3 {
-  color: #fafafa;
-  font-weight: 500;
-  font-size: 90%;
-  margin-top: 10px;
-}
 
-#text-divider {
-    background-color: #fafafa;
-    height: 3px;
-    width: 50px;
-    border:0;
-}
 
+
+.
 /*---------hovers*/
 
 .navbar-nav a:hover {
