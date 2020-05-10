@@ -29,9 +29,8 @@ h6 {
   color: #303e59;
 }
 form .btn {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
-
 
 /*---------navbar*/
 
@@ -81,34 +80,48 @@ form .btn {
 }
 
 .container-work {
-    height: 600px;
-    text-align: center;
+  height: 600px;
+  text-align: center;
 }
 
 .container-contact {
-    height: 600px;
-    background-color: #303e59;
-    color: #fafafa;
+  height: 600px;
+  background-color: #303e59;
+  color: #fafafa;
 }
 
 /*---------contact*/
 
 .container-contact p {
-    font-weight: 100;
-    margin: 3px;
+  font-weight: 100;
+  margin: 3px;
+}
 
+.container-contact ul {
+  margin-top: 50px;
+}
+
+.container-contact ul li {
+  margin-bottom: 5px;
+  font-weight: 100;
 }
 
 .container p {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
 }
-
-
 
 /*---------hovers*/
 
 .navbar-nav a:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*---------icons*/
+
+.container-contact i {
+  color: #fafafa;
+  font-size: 26px;
+  margin: 5px;
 }
