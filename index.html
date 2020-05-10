@@ -15,7 +15,7 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-		<a class="navbar-brand" href="#home">antónio</a>
+		<a class="navbar-brand" href="#home">antónio<h6>ceramic</h6></a>
 		<button
         class="navbar-toggler"
         type="button"
@@ -45,7 +45,7 @@
 		</div>
 	</nav>
 	<!--home-->
-	<section class="container-fluid container-home home-bg-image" id="home">
+	<section class="container-fluid container-home" id="home">
 		<div class="row">
 			<div class="col">
 
@@ -55,10 +55,11 @@
 	<!--.home end-->
 
 	<!--about-->
-	<section class="container-fluid" id="about">
+
+	<section id="about" class="container-fluid container-about">
 		<div class="row">
 			<div class="col">
-				<h2>About me</h2>
+				<h2>About Me</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -72,40 +73,40 @@
 			</div>
 		</div>
 	</section>
+
 	<!--.about end-->
 
 	<!--my work-->
-	<section class="container" id="mywork">
+	<section class="container-fluid container-work" id="mywork">
 		<div class="row">
-			<div class="col page-header">
+			<div class="col">
 				<h2>My work</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4">
-
-				<div class="media">
+			<div class="col-md-4 ">
+				<div class="media subsection">
 					<img src="assets/images/202B.jpg" class="rounded-circle" height="150" width="150" alt="/">
 						</div>
-					<p><a class="btn btn-sm btn-default my-4" href="">Plates</a></p>
+					<p><a class="btn btn-sm btn-default my-5" href="">Plates</a></p>
 				</div>
 				<div class="col-md-4">
 					<div class="media">
 						<img src="assets/images/202B.jpg" class="rounded-circle" height="150" width="150" alt="/">
 						</div>
-						<p><a class="btn btn-sm btn-default my-4" href="">Cups</a></p>
+						<p><a class="btn btn-sm btn-default my-5" href="">Cups</a></p>
 					</div>
 					<div class="col-md-4">
 						<div class="media">
-							<img src="assets/images/202B.jpg" class="rounded-circle border border-primary" height="150" width="150" alt="/">
+							<img src="assets/images/202B.jpg" class="rounded-circle" height="150" width="150" alt="/">
 						</div>
-							<p><a class="btn btn-sm btn-default my-4" href="">Other</a></p>
+							<p><a class="btn btn-sm btn-default my-5" href="">Other</a></p>
 						</div>
 					</div>
 	</section>
 	<!--.my work end-->
 	<!--contact-->
-	<section class="container" id="contact">
+	<section class="container-fluid container-contact" id="contact">
 		<div class="row">
 			<div class="col text-center">
 				<h2>Contact</h2>
@@ -113,11 +114,32 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<div>Contact Form</div>
+				<form class="container">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" class="form-control bg-white" id="fname" required>
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" class="form-control bg-white" id="lname" required>
+          </div>
+          <div class="form-group">
+            <label for="mail">Email Address</label>
+            <input type="email" class="form-control bg-white" id="mail" required>
+          </div>
+          <p>Send us your details and we will contact you!</p>
+          <div class="text-center py-2">
+            <a href="#" class="btn btn-lg" role="button" aria-pressed="true">Send</a>
+          </div>
+        </form>
 			</div>
-			<div class="col-md-6">
-				<div>Contact Info</div>
-				<p>Instagram Logo</p>
+			<div class="col-md-6 text-center">
+				<p>antonio.mendes@gmail.com</p>
+                <p>+351 91 445 56 54</p>
+				<p>Rua Carlos Alberto, 22 - r/c</p>
+				<p>Caldas da Rainha - Portugal</p>
+
+				<a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
 			</div>
 		</div>
 	</section>
