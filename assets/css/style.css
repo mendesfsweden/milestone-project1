@@ -74,23 +74,23 @@ form .btn {
 }
 
 .container-about {
-  height: 600px;
+  min-height: 600px;
   background-color: #303e59;
   color: #fafafa;
 }
 
 .container-work {
-  height: 600px;
+  min-height: 600px;
   text-align: center;
 }
 
+/*---------contact*/
+
 .container-contact {
-  height: 600px;
+  min-height: 600px;
   background-color: #303e59;
   color: #fafafa;
 }
-
-/*---------contact*/
 
 .container-contact p {
   font-weight: 100;
@@ -106,12 +106,6 @@ form .btn {
   font-weight: 100;
 }
 
-.container p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 100;
-}
-
 /*---------hovers*/
 
 .navbar-nav a:hover {
@@ -120,8 +114,6 @@ form .btn {
 
 /*---------icons*/
 
-.container-contact i {
+.social-links i {
   color: #fafafa;
-  font-size: 26px;
-  margin: 5px;
 }
