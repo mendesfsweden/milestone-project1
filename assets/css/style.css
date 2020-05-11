@@ -23,13 +23,19 @@ h6 {
   text-align: center;
 }
 
+.container-work h2 {
+    color: #303e59;
+}
+
 /*---------buttons*/
 
 .btn {
   color: #303e59;
+  font-size: 20px;
 }
 form .btn {
   background-color: #fafafa;
+  width: 100px;
 }
 
 /*---------navbar*/
@@ -45,7 +51,7 @@ form .btn {
 .navbar .navbar-brand {
   font-size: 30px;
   letter-spacing: 7px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 30px;
 }
 
@@ -61,7 +67,7 @@ form .btn {
   border: 0;
 }
 
-/*---------containers*/
+/*---------home*/
 
 .container-home {
   height: 100vh;
@@ -72,13 +78,22 @@ form .btn {
   -o-background-size: cover;
   background-size: cover;
 }
+/*---------about*/
 
 .container-about {
   min-height: 600px;
   background-color: #303e59;
   color: #fafafa;
+  text-align: center;
 }
 
+.container-about p {
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+/*---------work*/
 .container-work {
   min-height: 600px;
   text-align: center;
@@ -98,7 +113,7 @@ form .btn {
 }
 
 .container-contact ul {
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 .container-contact ul li {
@@ -106,14 +121,34 @@ form .btn {
   font-weight: 100;
 }
 
+.form-text {
+    font-size: 14px;
+    text-align: center;
+}
+
 /*---------hovers*/
 
 .navbar-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  text-decoration: underline #fafafa;
 }
+
+form .btn:hover {
+  background-color: #303e59;
+  color: #fafafa;
+  border: 2px solid #fafafa;
+}
+
+.social-links i:hover {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+
 
 /*---------icons*/
 
 .social-links i {
   color: #fafafa;
+  font-size: 26px;
+  margin: 0 10px 10px 10px;
 }
+
