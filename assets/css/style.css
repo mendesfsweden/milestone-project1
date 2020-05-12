@@ -87,12 +87,11 @@ form .btn {
   min-height: 600px;
   background-color: #303e59;
   color: #fafafa;
-  text-align: center;
 }
 
 .container-about p {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*---------work*/
@@ -102,10 +101,9 @@ form .btn {
 }
 
 .container-work a {
-    letter-spacing: 3px;
-    font-size: 16px;
+  letter-spacing: 3px;
+  font-size: 16px;
 }
-
 
 /*---------contact*/
 
@@ -134,11 +132,9 @@ form .btn {
 }
 
 label {
-    font-size: 16px;
-    letter-spacing: 2px;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
-
-
 
 /*---------hovers*/
 
