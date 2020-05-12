@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700");
 
 body {
   margin: 0;
@@ -14,6 +14,7 @@ h2 {
   font-size: 30px;
   font-weight: 100;
   margin: 80px 0 80px 0;
+  letter-spacing: 5px;
 }
 
 h6 {
@@ -25,7 +26,7 @@ h6 {
 }
 
 .container-work h2 {
-    color: #303e59;
+  color: #303e59;
 }
 
 /*---------buttons*/
@@ -33,11 +34,11 @@ h6 {
 .btn {
   color: #303e59;
   font-size: 20px;
-  
 }
 form .btn {
   background-color: #fafafa;
   width: 100px;
+  letter-spacing: 2px;
 }
 
 /*---------navbar*/
@@ -74,7 +75,7 @@ form .btn {
 .container-home {
   height: 100vh;
   position: relative;
-  background: url("../images/bg-image.jpg") no-repeat center center fixed;
+  background: url("../images/bg_image.jpg") no-repeat bottom center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,17 +91,21 @@ form .btn {
 }
 
 .container-about p {
-    margin-left: 50px;
-    margin-right: 50px;
-   
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /*---------work*/
 .container-work {
   min-height: 600px;
   text-align: center;
-  
 }
+
+.container-work a {
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
 
 /*---------contact*/
 
@@ -116,43 +121,50 @@ form .btn {
 }
 
 .container-contact ul {
-  margin-top: 65px;
+  margin-top: 60px;
 }
 
 .container-contact ul li {
-  margin-bottom: 5px;
   font-weight: 100;
 }
 
 .form-text {
-    font-size: 14px;
-    text-align: center;
+  font-size: 14px;
+  text-align: center;
 }
+
+label {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
 
 /*---------hovers*/
 
-.navbar-nav a:hover {
-  text-decoration: underline #fafafa;
+.navbar-nav .nav-item .nav-link:hover {
+  color: #303e59;
+  background-color: #fafafa;
+  transition: all 0.35s ease-in-out;
 }
 
 form .btn:hover {
   background-color: #303e59;
   color: #fafafa;
   border: 2px solid #fafafa;
+  transition: all 0.35s ease-in-out;
 }
 
 .social-links i:hover {
   color: rgba(0, 0, 0, 0.2);
+  transition: all 0.35s ease-in-out;
 }
 
 .container-work a:hover {
-    background-color: #303e59;
-    color: #fafafa;
-
-
+  background-color: #303e59;
+  color: #fafafa;
+  transition: all 0.35s ease-in-out;
 }
-
-
 
 /*---------icons*/
 
@@ -161,4 +173,3 @@ form .btn:hover {
   font-size: 26px;
   margin: 0 10px 10px 10px;
 }
-
