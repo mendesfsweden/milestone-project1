@@ -76,9 +76,6 @@ form .btn {
   height: 100vh;
   position: relative;
   background: url("../images/bg_image.jpg") no-repeat bottom center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 /*---------about*/
@@ -141,6 +138,8 @@ label {
 .navbar-nav .nav-item .nav-link:hover {
   color: #303e59;
   background-color: #fafafa;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
@@ -148,17 +147,23 @@ form .btn:hover {
   background-color: #303e59;
   color: #fafafa;
   border: 2px solid #fafafa;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
 .social-links i:hover {
   color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
 .container-work a:hover {
   background-color: #303e59;
   color: #fafafa;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
