@@ -1,6 +1,17 @@
-# antónio 
-###### ceramic
+# antónio ceramic
 
+## MS1 -User-Centric Frontend Development - Code Institute
+
+This website is for a recently created portuguese ceramic company. Their intent is to expand the business to the international market as portuguese ceramic is so popular all around the world. The ultimate goal is to turn this project into a online store, written in at least 3 different languages - English, Swedish and Portuguese.
+
+## Technologies
+
+<ul>
+  <li>HTML - was used create the website structure</li>
+  <li>CSS - was used to style the HTML</li>
+  <li>Bootstrap - was used for the website responsiveness </li>
+  <li>Figma - was used to create the wireframe</li>
+</ul>
 
 ## Testing
 
