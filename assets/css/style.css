@@ -76,6 +76,9 @@ form .btn {
   height: 100vh;
   position: relative;
   background: url("../images/bg_image.jpg") no-repeat bottom center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+    -o-background-size: cover;
   background-size: cover;
 }
 /*---------about*/
