@@ -8,16 +8,17 @@ body {
   font-weight: 100;
 }
 
-/*---------headings*/
-h2 {
+/*---------headings---------*/
+.container-heading {
   text-align: center;
   font-size: 30px;
   font-weight: 100;
-  margin: 80px 0 80px 0;
+  margin: 80px 0 40px 0;
   letter-spacing: 5px;
+  color: #fafafa;
 }
 
-h6 {
+.navbar-sub {
   line-height: 10px;
   font-weight: 100;
   letter-spacing: 5px;
@@ -29,19 +30,30 @@ h6 {
   color: #303e59;
 }
 
-/*---------buttons*/
+.container-contact h2 {
+  margin-bottom: 20px;
+}
+.contact-sub {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 40px;
+}
 
-.btn {
+/*---------buttons---------*/
+
+.btn-work {
   color: #303e59;
   font-size: 20px;
 }
-form .btn {
+
+.btn-contact {
   background-color: #fafafa;
   width: 100px;
   letter-spacing: 2px;
 }
 
-/*---------navbar*/
+/*---------navbar---------*/
 
 .navbar {
   background-color: #303e59;
@@ -70,18 +82,18 @@ form .btn {
   border: 0;
 }
 
-/*---------home*/
+/*---------home---------*/
 
 .container-home {
   height: 100vh;
   position: relative;
-  background: url("../images/bg_image.jpg") no-repeat bottom center fixed;
+  background: url("../images/bg_image.jpg") no-repeat center bottom fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-    -o-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
-/*---------about*/
+/*---------about---------*/
 
 .container-about {
   min-height: 600px;
@@ -94,7 +106,11 @@ form .btn {
   margin-right: 10%;
 }
 
-/*---------work*/
+#text-pad {
+    padding-bottom: 40px;
+}
+
+/*---------work---------*/
 .container-work {
   min-height: 600px;
   text-align: center;
@@ -105,7 +121,7 @@ form .btn {
   font-size: 16px;
 }
 
-/*---------contact*/
+/*---------contact---------*/
 
 .container-contact {
   min-height: 600px;
@@ -126,17 +142,12 @@ form .btn {
   font-weight: 100;
 }
 
-.form-text {
-  font-size: 14px;
-  text-align: center;
-}
-
-label {
+.contact-label {
   font-size: 16px;
   letter-spacing: 2px;
 }
 
-/*---------hovers*/
+/*---------hovers---------*/
 
 .navbar-nav .nav-item .nav-link:hover {
   color: #303e59;
@@ -146,7 +157,7 @@ label {
   transition: all 0.35s ease-in-out;
 }
 
-form .btn:hover {
+.btn-contact:hover {
   background-color: #303e59;
   color: #fafafa;
   border: 2px solid #fafafa;
@@ -156,7 +167,7 @@ form .btn:hover {
 }
 
 .social-links i:hover {
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(209, 221, 232, 0.5);
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -170,10 +181,10 @@ form .btn:hover {
   transition: all 0.35s ease-in-out;
 }
 
-/*---------icons*/
+/*---------icons---------*/
 
 .social-links i {
   color: #fafafa;
   font-size: 26px;
-  margin: 0 10px 10px 10px;
+  padding: 10px;
 }
