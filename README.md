@@ -19,13 +19,22 @@ Click <a href="https://mendesfsweden.github.io/milestone-project1/" target="_bla
   <li>Figma - was used to create the wireframe</li>
 </ul>
 
+## Features
+
+A navigation bar is used in this project and it is visible at all times, as the user scrolls down the page. The navigation bar collapses on tablet screens and smaller into a button that extends vertically once clicked on.
+This project uses the Parallax Scrolling effect to create a perception of depth as the user scrolls.
+
+### Future features
+
+Develop the different categories in the "My Work" section. Ultimatelly, the goal is to turn this website into a online store. 
+
 ## Testing
 
 All links were tested and work perfectly. Facebook and Linkedin links are redirected to each of the plattforms home page while the Instagram link will open "antónio-ceramic" Instagram account. The "Send" button located in the contact section will take the user back to the home section, as well as all the different categories in the "My Work" Section.
 
 This project was tested on Chrome, Safari, Internet Explorer, iOS devices (iPhone Xs and Ipad) and Android (Huawei P30). 
 
-A navigation bar is visible at all times, as the user scrolls down the page, collapsing on tablet screens and smaller into a button that extends vertically once clicked on.
+The navigation bar works perfectly in all screens/browsers.
 
 ## Bugs
 
