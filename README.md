@@ -10,6 +10,34 @@ Click <a href="https://mendesfsweden.github.io/milestone-project1/" target="_bla
 
 <img src="assets/images/demo.png" width="1200" height="400">
 
+## UX
+
+Focus on providing the necessary information to the users using a simple, clean and intuitive layout. 
+
+## User Stories
+
+After contacting via email/phone with some friends that are very interested in ceramic and are active buyers, i have put together a list of what they look for when entering a ceramic website:
+<ul>
+  <li>As a user, i want to know what is your target consumer.(about section)</li>
+  <li>As a user, i want to be able to see samples of your work.(my work section)</li>
+  <li>As a user, i want to know about the prices.(will be availble once the categories in "my work" section are finished)</li>
+  <li>As a user, i want to reach out to you for more information, both via phone or email/message.(contact section)</li>
+</ul>
+
+### Strategy
+
+Give the users the possibility to 
+
+### Structure 
+
+It's a one page website with multiple sections. The user can either scroll up and down or use the navigation bar (visible at all time) to move between the different sections. It contains a section with a brief description of the author, another where the products are available to be seen through the different categories and finally a contact area at the bottom that includes social media links.
+### Skeleton
+
+### Surface
+
+Used only two different colors throughout the entire project in order to give it a uniform and clean design. The font used, Ubuntu, was a personal choice. It simple but still stylish.  
+
+
 ## Technologies
 
 <ul>
