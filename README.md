@@ -27,6 +27,12 @@ This project was tested on Chrome, Safari, Internet Explorer, iOS devices (iPhon
 
 A navigation bar is visible at all times, as the user scrolls down the page, collapsing on tablet screens and smaller into a button that extends vertically once clicked on.
 
+## Bugs
+
+### Background image on iOS devies
+
+Background images, when manipulated (e.g. position:fixed), do not work well on iOS devices. The images become too big for the screen so  can only be seen partially and with a terrible quality. Solution was based on another Github colaborator page - the link can be found at the bottom of this readme file in the Acknowledgments section.
+
 #### HTML/CSS Validation
 
 <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator:<a/> Used it to check the site's HTML document markup validity and it's functionality.<br> 
