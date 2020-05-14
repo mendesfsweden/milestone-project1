@@ -24,7 +24,7 @@ Click <a href="https://mendesfsweden.github.io/milestone-project1/" target="_bla
 A navigation bar is used in this project and it is visible at all times, as the user scrolls down the page. The navigation bar collapses on tablet screens and smaller into a button that extends vertically once clicked on.
 This project uses the Parallax Scrolling effect to create a perception of depth as the user scrolls.
 
-### Future features
+### Features Left to Implement
 
 Develop the different categories in the "My Work" section. Ultimatelly, the goal is to turn this website into a online store. 
 
@@ -38,7 +38,7 @@ The navigation bar works perfectly in all screens/browsers.
 
 ## Bugs
 
-### Background image on iOS devies
+### Background image on iOS devices
 
 Background images, when manipulated (e.g. position:fixed), do not work well on iOS devices. The images become too big for the screen so  can only be seen partially and with a terrible quality. Solution was based on another Github colaborator page - the link can be found at the bottom of this readme file in the Acknowledgments section.
 
