@@ -2,7 +2,7 @@
 
 ### MS1 -User-Centric Frontend Development - Code Institute
 
-This website is for a recently created portuguese ceramic company. Their intent is to expand the business to the international market as portuguese ceramic is so popular all around the world. The ultimate goal is to turn this project into a online store, written in at least 3 different languages - English, Swedish and Portuguese.
+This project is for a recently created portuguese ceramic company. Their intent is to expand the business to the international market as portuguese ceramic is so popular all around the world. The ultimate goal is to turn this project into a online store, written in at least 3 different languages - English, Swedish and Portuguese.
 
 ## Demo
 
@@ -34,7 +34,7 @@ The users will be able to see a major part of the author's work in the different
 
 ### Structure 
 
-It's a one page website with multiple sections. The user can either scroll up and down or use the navigation bar (visible at all time) to move between the different sections. It contains a section with a brief description of the author, another where the products are available to be seen through the different categories and finally a contact area at the bottom that includes social media links.
+It's a one page project with multiple sections. The user can either scroll up and down or use the navigation bar (visible at all time) to move between the different sections. It contains a section with a brief description of the author, another where the products are available to be seen through the different categories and finally a contact area at the bottom that includes social media links.
 ### Skeleton
 
 ### Surface
@@ -58,7 +58,7 @@ This project uses the Parallax Scrolling effect to create a perception of depth 
 
 ### Features Left to Implement
 
-Develop the different categories in the "My Work" section. Ultimatelly, the goal is to turn this website into a online store. 
+Develop the different categories in the "My Work" section. Ultimatelly, the goal is to turn this project into a online store. 
 
 ## Testing
 
