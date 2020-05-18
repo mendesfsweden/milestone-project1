@@ -12,21 +12,25 @@ Click <a href="https://mendesfsweden.github.io/milestone-project1/" target="_bla
 
 ## UX
 
-Focus on providing the necessary information to the users using a simple, clean and intuitive layout. 
+Focus on providing the necessary information to the users using a simple, clean and intuitive design. 
 
 ## User Stories
 
 After contacting via email/phone with some friends that are very interested in ceramic and are active buyers, i have put together a list of what they look for when entering a ceramic website:
 <ul>
-  <li>As a user, i want to know what is your target consumer.(about section)</li>
-  <li>As a user, i want to be able to see samples of your work.(my work section)</li>
-  <li>As a user, i want to know about the prices.(will be availble once the categories in "my work" section are finished)</li>
-  <li>As a user, i want to reach out to you for more information, both via phone or email/message.(contact section)</li>
+  <li>As a user, i want to know what is your target consumer.</li>
+  <li>As a user, i want to be able to see samples of your work.</li>
+  <li>As a user, i want to know about the prices.(will be availble once the categories in the "my work" section are finished)</li>
+  <li>As a user, i want to reach out to you for more information, both via phone or email/message.</li>
 </ul>
 
 ### Strategy
 
-Give the users the possibility to 
+The overall goal is to promote the author's work by creating an organized website that is easy to navigate through. 
+
+### Scope
+
+The users will be able to see a major part of the author's work in the different categories as well as  
 
 ### Structure 
 
