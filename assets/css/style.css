@@ -10,7 +10,7 @@ body {
 
 /*---------headings---------*/
 
-.navbar-sub {
+.navbar-subtitle {
   line-height: 10px;
   font-weight: 100;
   letter-spacing: 5px;
@@ -35,7 +35,7 @@ body {
   margin-bottom: 20px;
 }
 
-.contact-sub {
+.contact-subtitle {
   font-size: 14px;
   text-align: center;
   font-weight: 100;
@@ -44,12 +44,12 @@ body {
 
 /*---------buttons---------*/
 
-.btn-work {
+.work-btn {
   color: #303e59;
   font-size: 20px;
 }
 
-.btn-contact {
+.contact-btn {
   background-color: #fafafa;
   width: 100px;
   letter-spacing: 2px;
@@ -120,10 +120,6 @@ body {
   margin-right: 10%;
 }
 
-#text-pad {
-    padding-bottom: 40px;
-}
-
 /*---------work---------*/
 .container-work {
   min-height: 600px;
@@ -150,7 +146,7 @@ body {
 }
 
 .container-contact ul {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .container-contact ul li {
@@ -173,7 +169,7 @@ body {
   transition: all 0.35s ease-in-out;
 }
 
-.btn-contact:hover {
+.contact-btn:hover {
   background-color: #303e59;
   color: #fafafa;
   border: 2px solid #fafafa;
