@@ -26,11 +26,11 @@ After contacting via email/phone with some friends that are very interested in c
 
 ### Strategy
 
-The overall goal is to promote the author's work by creating an organized website that is easy to navigate through. 
+The main goal is to promote the author's work by creating an organized website that is easy, for both B2C and potencial B2B visitors, to navigate through. 
 
 ### Scope
 
-The users will be able to see a major part of the author's work in the different categories as well as  
+The users will be able to see a major part of the author's work in the different categories. The social media links are also available as well as all the contact information at the bottom of the page.   
 
 ### Structure 
 
