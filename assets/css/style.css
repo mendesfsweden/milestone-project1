@@ -9,14 +9,6 @@ body {
 }
 
 /*---------headings---------*/
-.container-heading {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 100;
-  margin: 80px 0 40px 0;
-  letter-spacing: 5px;
-  color: #fafafa;
-}
 
 .navbar-sub {
   line-height: 10px;
@@ -26,6 +18,15 @@ body {
   text-align: center;
 }
 
+.container-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  margin: 80px 0 40px 0;
+  letter-spacing: 5px;
+  color: #fafafa;
+}
+
 .container-work h2 {
   color: #303e59;
 }
@@ -33,6 +34,7 @@ body {
 .container-contact h2 {
   margin-bottom: 20px;
 }
+
 .contact-sub {
   font-size: 14px;
   text-align: center;
@@ -91,14 +93,14 @@ body {
 }
 
 .container-home:after{
-      content:"";
-      position:fixed; /* stretch a fixed position to the whole screen */
-      top:0;
-      height:100vh; /* fix for mobile browser address bar appearing disappearing */
-      left:0;
-      right:0;
-      z-index:-1; /* needed to keep in the background */
-        background: url("../images/bg_image.jpg") no-repeat center bottom;
+  content:"";
+  position:fixed; 
+  top:0;
+  height:100vh; 
+  left:0;
+  right:0;
+  z-index:-1; 
+  background: url("../images/bg_image.jpg") no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -167,6 +169,7 @@ body {
   background-color: #fafafa;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
@@ -176,13 +179,15 @@ body {
   border: 2px solid #fafafa;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
 .social-links i:hover {
   color: rgba(209, 221, 232, 0.5);
-  -webkit-transition: all 0.35s ease-in-out;
+   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
@@ -191,6 +196,7 @@ body {
   color: #fafafa;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
