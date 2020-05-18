@@ -6,7 +6,7 @@ This website is for a recently created portuguese ceramic company. Their intent 
 
 ## Demo
 
-Click <a href="https://mendesfsweden.github.io/milestone-project1/" target="_blank">here</a> for a live demo version of this project.
+Click <a href="https://mendesfsweden.github.io/milestone-project1/">here</a> for a live demo version of this project.
 
 <img src="assets/images/demo.png" width="1200" height="400">
 
