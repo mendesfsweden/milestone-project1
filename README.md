@@ -86,8 +86,8 @@ Background images, when manipulated (e.g. position:fixed), do not work well on i
 <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator:<a/> Used it to check the site's CSS document markup validity and it's functionality. 
 
 ## Deployment
-
-The project is hosted at GitHub, directly from the master branch. For that reason, any new changes commited will update the project automatically.  
+ 
+The project is hosted at GitHub, directly from the master branch. For that reason, any new changes committed will be deployed automatically.
 
 ## Credits
 
