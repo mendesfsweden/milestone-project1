@@ -37,6 +37,11 @@ The users will be able to see a major part of the author's work in the different
 It's a one page project with multiple sections. The user can either scroll up and down or use the navigation bar (visible at all time) to move between the different sections. It contains a section with a brief description of the author, another where the products are available to be seen through the different categories and finally a contact area at the bottom that includes social media links.
 ### Skeleton
 
+Wireframes developed with figma for this project:
+
+<a href="https://github.com/mendesfsweden/milestone-project1/blob/master/assets/mockups/Desktop.pdf">Desktop Version</a><br>
+<a href="https://github.com/mendesfsweden/milestone-project1/blob/master/assets/mockups/Mobile.pdf">Mobile Version</a>
+
 ### Surface
 
 Used only two different colors throughout the entire project in order to give it a uniform and clean design. The font used, Ubuntu, was a personal choice. It simple but still stylish.  
