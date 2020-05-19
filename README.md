@@ -35,6 +35,7 @@ The users will be able to see a major part of the author's work in the different
 ### Structure 
 
 It's a one page project with multiple sections. The user can either scroll up and down or use the navigation bar (visible at all time) to move between the different sections. It contains a section with a brief description of the author, another where the products are available to be seen through the different categories and finally a contact area at the bottom that includes social media links.
+
 ### Skeleton
 
 Wireframes developed with figma for this project:
@@ -83,6 +84,10 @@ Background images, when manipulated (e.g. position:fixed), do not work well on i
 
 <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator:<a/> Used it to check the site's HTML document markup validity and it's functionality.<br> 
 <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator:<a/> Used it to check the site's CSS document markup validity and it's functionality. 
+
+## Deployment
+
+The project is hosted at GitHub, directly from the master branch. For that reason, any new changes commited will update the project automatically.  
 
 ## Credits
 
