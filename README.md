@@ -2,7 +2,7 @@
 
 ### MS1 -User-Centric Frontend Development - Code Institute
 
-This project is for a recently created portuguese ceramic company. Their intent is to expand the business to the international market as portuguese ceramic is so popular all around the world. The ultimate goal is to turn this project into a online store, written in at least 3 different languages - English, Swedish and Portuguese.
+This project was developed for a portuguese ceramic author. The author's intent is to expand the business to the international market as portuguese ceramic is so popular all around the world. The ultimate goal is to turn this project into a online store, written in at least 3 different languages - English, Swedish and Portuguese.
 
 ## Demo
 
