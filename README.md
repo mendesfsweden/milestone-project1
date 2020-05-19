@@ -45,7 +45,7 @@ Wireframes developed with figma for this project:
 
 ### Surface
 
-Used only two different colors throughout the entire project in order to give it a uniform and clean design. The font used, Ubuntu, was a personal choice. It simple but still stylish.  
+Used only two different colors throughout the entire project in order to give it a uniform and clean design. The font used, Ubuntu, was a personal choice. It is simple but still stylish.  
 
 
 ## Technologies
